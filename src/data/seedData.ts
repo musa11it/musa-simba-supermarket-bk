@@ -1,0 +1,197 @@
+export const branchesData = [
+  {
+    name: 'Simba Supermarket City Centre',
+    nameRw: 'Simba Supermarket Umujyi Rwagati',
+    nameFr: 'Simba Supermarché Centre-Ville',
+    address: 'Union Trade Centre, 1 KN 4 Ave, Kigali',
+    latitude: -1.9501,
+    longitude: 30.0587,
+    phone: '+250 788 100 001',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Remera',
+    nameRw: 'Simba Supermarket Remera',
+    nameFr: 'Simba Supermarché Remera',
+    address: 'KG 541 St, Remera, Kigali',
+    latitude: -1.9551,
+    longitude: 30.1088,
+    phone: '+250 788 100 002',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Kimironko',
+    nameRw: 'Simba Supermarket Kimironko',
+    nameFr: 'Simba Supermarché Kimironko',
+    address: '342F+3V5, Kimironko, Kigali',
+    latitude: -1.9356,
+    longitude: 30.1177,
+    phone: '+250 788 100 003',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Kacyiru',
+    nameRw: 'Simba Supermarket Kacyiru',
+    nameFr: 'Simba Supermarché Kacyiru',
+    address: '24Q5+R2R, Kacyiru, Kigali',
+    latitude: -1.9415,
+    longitude: 30.0905,
+    phone: '+250 788 100 004',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Nyamirambo',
+    nameRw: 'Simba Supermarket Nyamirambo',
+    nameFr: 'Simba Supermarché Nyamirambo',
+    address: '24XF+XVV, KG 192 St, Nyamirambo, Kigali',
+    latitude: -1.9783,
+    longitude: 30.0412,
+    phone: '+250 788 100 005',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Gikondo',
+    nameRw: 'Simba Supermarket Gikondo',
+    nameFr: 'Simba Supermarché Gikondo',
+    address: '23H4+26V, Gikondo, Kigali',
+    latitude: -1.9820,
+    longitude: 30.0742,
+    phone: '+250 788 100 006',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Kanombe',
+    nameRw: 'Simba Supermarket Kanombe',
+    nameFr: 'Simba Supermarché Kanombe',
+    address: '24G3+MCV, Kanombe, Kigali',
+    latitude: -1.9708,
+    longitude: 30.1376,
+    phone: '+250 788 100 007',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Kinyinya',
+    nameRw: 'Simba Supermarket Kinyinya',
+    nameFr: 'Simba Supermarché Kinyinya',
+    address: 'KK 35 Ave, Kinyinya, Kigali',
+    latitude: -1.9212,
+    longitude: 30.1035,
+    phone: '+250 788 100 008',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Kibagabaga',
+    nameRw: 'Simba Supermarket Kibagabaga',
+    nameFr: 'Simba Supermarché Kibagabaga',
+    address: '24J3+Q3, Kibagabaga, Kigali',
+    latitude: -1.9378,
+    longitude: 30.1245,
+    phone: '+250 788 100 009',
+    openingHours: '7:00 AM - 10:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Nyanza',
+    nameRw: 'Simba Supermarket Nyanza',
+    nameFr: 'Simba Supermarché Nyanza',
+    address: 'Nyanza, Southern Province',
+    latitude: -2.3516,
+    longitude: 29.7503,
+    phone: '+250 788 100 010',
+    openingHours: '8:00 AM - 9:00 PM',
+  },
+  {
+    name: 'Simba Supermarket Gisenyi',
+    nameRw: 'Simba Supermarket Gisenyi',
+    nameFr: 'Simba Supermarché Gisenyi',
+    address: '8754+P7W, Gisenyi, Western Province',
+    latitude: -1.7028,
+    longitude: 29.2580,
+    phone: '+250 788 100 011',
+    openingHours: '8:00 AM - 9:00 PM',
+  },
+];
+
+export const categoriesData = [
+  { name: 'Fresh Produce', nameRw: 'Imboga n\'Imbuto', nameFr: 'Fruits et Légumes', slug: 'fresh-produce', icon: 'Apple', order: 1 },
+  { name: 'Dairy & Eggs', nameRw: 'Amata n\'Amagi', nameFr: 'Laitiers et Œufs', slug: 'dairy-eggs', icon: 'Milk', order: 2 },
+  { name: 'Bakery', nameRw: 'Umugati', nameFr: 'Boulangerie', slug: 'bakery', icon: 'Croissant', order: 3 },
+  { name: 'Meat & Seafood', nameRw: 'Inyama n\'Amafi', nameFr: 'Viande et Poisson', slug: 'meat-seafood', icon: 'Beef', order: 4 },
+  { name: 'Pantry', nameRw: 'Ibiribwa Bikomeye', nameFr: 'Garde-Manger', slug: 'pantry', icon: 'Wheat', order: 5 },
+  { name: 'Beverages', nameRw: 'Ibinyobwa', nameFr: 'Boissons', slug: 'beverages', icon: 'Coffee', order: 6 },
+  { name: 'Snacks', nameRw: 'Ibiryo Byoroheje', nameFr: 'Collations', slug: 'snacks', icon: 'Cookie', order: 7 },
+  { name: 'Household', nameRw: 'Ibikoresho byo mu Rugo', nameFr: 'Ménage', slug: 'household', icon: 'Home', order: 8 },
+  { name: 'Personal Care', nameRw: 'Kwita ku Mubiri', nameFr: 'Soins Personnels', slug: 'personal-care', icon: 'Sparkles', order: 9 },
+  { name: 'Baby Care', nameRw: 'Ibyo Abana', nameFr: 'Bébé', slug: 'baby-care', icon: 'Baby', order: 10 },
+];
+
+export const productsData = [
+  // Fresh Produce
+  { name: 'Fresh Tomatoes', nameRw: 'Inyanya Nshya', nameFr: 'Tomates Fraîches', categorySlug: 'fresh-produce', price: 800, unit: 'kg', image: 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500', tags: ['vegetable', 'fresh', 'local'], featured: true },
+  { name: 'Bananas', nameRw: 'Amatoki', nameFr: 'Bananes', categorySlug: 'fresh-produce', price: 1200, unit: 'bunch', image: 'https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=500', tags: ['fruit', 'fresh'], featured: true },
+  { name: 'Irish Potatoes', nameRw: 'Ibirayi', nameFr: 'Pommes de Terre', categorySlug: 'fresh-produce', price: 600, unit: 'kg', image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500', tags: ['vegetable', 'staple'] },
+  { name: 'Fresh Avocados', nameRw: 'Avoka', nameFr: 'Avocats', categorySlug: 'fresh-produce', price: 500, unit: 'piece', image: 'https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=500', tags: ['fruit', 'fresh'], featured: true },
+  { name: 'Carrots', nameRw: 'Karoti', nameFr: 'Carottes', categorySlug: 'fresh-produce', price: 700, unit: 'kg', image: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500', tags: ['vegetable'] },
+  { name: 'Sweet Pineapple', nameRw: 'Inanasi', nameFr: 'Ananas Sucré', categorySlug: 'fresh-produce', price: 1500, unit: 'piece', image: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=500', tags: ['fruit', 'sweet'] },
+  { name: 'Cabbage', nameRw: 'Amashu', nameFr: 'Chou', categorySlug: 'fresh-produce', price: 500, unit: 'head', image: 'https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=500', tags: ['vegetable'] },
+  { name: 'Onions', nameRw: 'Ibitunguru', nameFr: 'Oignons', categorySlug: 'fresh-produce', price: 900, unit: 'kg', image: 'https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?w=500', tags: ['vegetable', 'staple'] },
+
+  // Dairy & Eggs
+  { name: 'Inyange Fresh Milk 1L', nameRw: 'Amata Inyange 1L', nameFr: 'Lait Inyange 1L', categorySlug: 'dairy-eggs', price: 1200, unit: 'bottle', image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=500', tags: ['milk', 'dairy'], featured: true, brand: 'Inyange' },
+  { name: 'Fresh Eggs (Tray of 30)', nameRw: 'Amagi (30)', nameFr: 'Œufs Frais (30)', categorySlug: 'dairy-eggs', price: 4500, unit: 'tray', image: 'https://images.unsplash.com/photo-1569288063643-5d29ad64df09?w=500', tags: ['eggs', 'protein'], featured: true },
+  { name: 'Yoghurt Inyange 500ml', nameRw: 'Iraha Inyange', nameFr: 'Yaourt Inyange', categorySlug: 'dairy-eggs', price: 1800, unit: 'bottle', image: 'https://images.unsplash.com/photo-1571212515416-fbd8b73e40c1?w=500', tags: ['yoghurt'], brand: 'Inyange' },
+  { name: 'Butter 250g', nameRw: 'Amavuta y\'Amata', nameFr: 'Beurre 250g', categorySlug: 'dairy-eggs', price: 2500, unit: 'pack', image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=500', tags: ['butter'] },
+  { name: 'Cheddar Cheese 200g', nameRw: 'Foromaji', nameFr: 'Fromage Cheddar', categorySlug: 'dairy-eggs', price: 3500, unit: 'pack', image: 'https://images.unsplash.com/photo-1552767059-ce182ead6c1b?w=500', tags: ['cheese'] },
+
+  // Bakery
+  { name: 'Fresh Bread Loaf', nameRw: 'Umugati Mushya', nameFr: 'Pain Frais', categorySlug: 'bakery', price: 800, unit: 'loaf', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500', tags: ['bread'], featured: true },
+  { name: 'Croissants (Pack of 4)', nameRw: 'Kurwasa', nameFr: 'Croissants x4', categorySlug: 'bakery', price: 2000, unit: 'pack', image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500', tags: ['pastry'] },
+  { name: 'Dinner Rolls (6pc)', nameRw: 'Imigati Mito', nameFr: 'Petits Pains x6', categorySlug: 'bakery', price: 1500, unit: 'pack', image: 'https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=500', tags: ['bread'] },
+  { name: 'Chocolate Muffins (4pc)', nameRw: 'Mafini z\'Ishokora', nameFr: 'Muffins Chocolat', categorySlug: 'bakery', price: 2500, unit: 'pack', image: 'https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=500', tags: ['pastry', 'sweet'] },
+
+  // Meat & Seafood
+  { name: 'Beef Steak', nameRw: 'Inyama z\'Inka', nameFr: 'Steak de Bœuf', categorySlug: 'meat-seafood', price: 6500, unit: 'kg', image: 'https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=500', tags: ['meat', 'beef'], featured: true },
+  { name: 'Whole Chicken', nameRw: 'Inkoko Yuzuye', nameFr: 'Poulet Entier', categorySlug: 'meat-seafood', price: 7000, unit: 'piece', image: 'https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=500', tags: ['chicken', 'poultry'] },
+  { name: 'Tilapia Fish', nameRw: 'Amafi ya Tilapia', nameFr: 'Tilapia', categorySlug: 'meat-seafood', price: 4500, unit: 'kg', image: 'https://images.unsplash.com/photo-1535241749838-299277b6305f?w=500', tags: ['fish', 'seafood'] },
+  { name: 'Goat Meat', nameRw: 'Inyama z\'Ihene', nameFr: 'Viande de Chèvre', categorySlug: 'meat-seafood', price: 5500, unit: 'kg', image: 'https://images.unsplash.com/photo-1603048719534-f11aaa8e05a4?w=500', tags: ['meat'] },
+
+  // Pantry
+  { name: 'Rice Basmati 5kg', nameRw: 'Umuceri 5kg', nameFr: 'Riz Basmati 5kg', categorySlug: 'pantry', price: 8500, unit: 'bag', image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500', tags: ['rice', 'staple'], featured: true },
+  { name: 'Cooking Oil 3L', nameRw: 'Amavuta yo Guteka 3L', nameFr: 'Huile de Cuisine 3L', categorySlug: 'pantry', price: 9000, unit: 'bottle', image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=500', tags: ['oil', 'staple'], featured: true },
+  { name: 'Sugar 2kg', nameRw: 'Isukari 2kg', nameFr: 'Sucre 2kg', categorySlug: 'pantry', price: 3200, unit: 'bag', image: 'https://images.unsplash.com/photo-1599639957043-f3aa5aee02db?w=500', tags: ['sugar', 'staple'] },
+  { name: 'Salt 1kg', nameRw: 'Umunyu 1kg', nameFr: 'Sel 1kg', categorySlug: 'pantry', price: 800, unit: 'bag', image: 'https://images.unsplash.com/photo-1518110925495-b37653b05200?w=500', tags: ['salt'] },
+  { name: 'Corn Flour 2kg', nameRw: 'Ifu y\'Ibigori 2kg', nameFr: 'Farine de Maïs 2kg', categorySlug: 'pantry', price: 2500, unit: 'bag', image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=500', tags: ['flour'] },
+  { name: 'Wheat Flour 2kg', nameRw: 'Ifu ya Buri 2kg', nameFr: 'Farine de Blé 2kg', categorySlug: 'pantry', price: 2800, unit: 'bag', image: 'https://images.unsplash.com/photo-1626078299034-94814c76a943?w=500', tags: ['flour'] },
+  { name: 'Spaghetti 500g', nameRw: 'Spageti', nameFr: 'Spaghetti 500g', categorySlug: 'pantry', price: 1500, unit: 'pack', image: 'https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=500', tags: ['pasta'] },
+
+  // Beverages
+  { name: 'Mineral Water 1.5L', nameRw: 'Amazi Y\'Isoko 1.5L', nameFr: 'Eau Minérale 1.5L', categorySlug: 'beverages', price: 500, unit: 'bottle', image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=500', tags: ['water'] },
+  { name: 'Coca-Cola 2L', nameRw: 'Coca-Cola 2L', nameFr: 'Coca-Cola 2L', categorySlug: 'beverages', price: 2000, unit: 'bottle', image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=500', tags: ['soda'], featured: true },
+  { name: 'Fanta Orange 1.5L', nameRw: 'Fanta 1.5L', nameFr: 'Fanta Orange 1.5L', categorySlug: 'beverages', price: 1800, unit: 'bottle', image: 'https://images.unsplash.com/photo-1624552184280-9e9631bbeee9?w=500', tags: ['soda'] },
+  { name: 'Rwandan Coffee 250g', nameRw: 'Ikawa y\'u Rwanda', nameFr: 'Café Rwandais 250g', categorySlug: 'beverages', price: 4500, unit: 'pack', image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=500', tags: ['coffee', 'local'], featured: true },
+  { name: 'Tea Bags (100 pc)', nameRw: 'Icyayi', nameFr: 'Sachets de Thé', categorySlug: 'beverages', price: 2500, unit: 'box', image: 'https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500', tags: ['tea'] },
+  { name: 'Fruit Juice 1L', nameRw: 'Umutobe 1L', nameFr: 'Jus de Fruit 1L', categorySlug: 'beverages', price: 2200, unit: 'carton', image: 'https://images.unsplash.com/photo-1600271886742-f049acea5a41?w=500', tags: ['juice'] },
+
+  // Snacks
+  { name: 'Biscuits Assorted', nameRw: 'Biskwi', nameFr: 'Biscuits Variés', categorySlug: 'snacks', price: 1200, unit: 'pack', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500', tags: ['biscuits'] },
+  { name: 'Peanuts Roasted 500g', nameRw: 'Ubunyobwa Bucyari 500g', nameFr: 'Arachides Grillées', categorySlug: 'snacks', price: 2500, unit: 'pack', image: 'https://images.unsplash.com/photo-1536591046800-03c7a3c7e217?w=500', tags: ['nuts'] },
+  { name: 'Potato Chips', nameRw: 'Ibirayi Byakaranze', nameFr: 'Chips', categorySlug: 'snacks', price: 1500, unit: 'pack', image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=500', tags: ['chips'] },
+  { name: 'Chocolate Bar', nameRw: 'Ishokora', nameFr: 'Barre Chocolatée', categorySlug: 'snacks', price: 2000, unit: 'bar', image: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=500', tags: ['chocolate'] },
+
+  // Household
+  { name: 'Toilet Paper (4 rolls)', nameRw: 'Impapuro zo mu Musarani', nameFr: 'Papier Toilette x4', categorySlug: 'household', price: 2500, unit: 'pack', image: 'https://images.unsplash.com/photo-1584556326561-c8746083993b?w=500', tags: ['paper'] },
+  { name: 'Dish Soap', nameRw: 'Isabuni y\'Ibyombo', nameFr: 'Liquide Vaisselle', categorySlug: 'household', price: 2200, unit: 'bottle', image: 'https://images.unsplash.com/photo-1622503532944-4b3c8b5f3ed3?w=500', tags: ['soap', 'cleaning'] },
+  { name: 'Laundry Detergent 2kg', nameRw: 'Omo', nameFr: 'Lessive 2kg', categorySlug: 'household', price: 5500, unit: 'box', image: 'https://images.unsplash.com/photo-1596194815948-e32c7e3da2bd?w=500', tags: ['detergent'] },
+  { name: 'Floor Cleaner', nameRw: 'Ibisukurana Ibiti', nameFr: 'Nettoyant Sol', categorySlug: 'household', price: 3500, unit: 'bottle', image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=500', tags: ['cleaning'] },
+
+  // Personal Care
+  { name: 'Bar Soap', nameRw: 'Isabuni', nameFr: 'Savon', categorySlug: 'personal-care', price: 800, unit: 'piece', image: 'https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=500', tags: ['soap'] },
+  { name: 'Shampoo 400ml', nameRw: 'Shampooing', nameFr: 'Shampooing 400ml', categorySlug: 'personal-care', price: 3500, unit: 'bottle', image: 'https://images.unsplash.com/photo-1571875257727-256c39da42af?w=500', tags: ['hair'] },
+  { name: 'Toothpaste Colgate', nameRw: 'Amenyo ya Colgate', nameFr: 'Dentifrice Colgate', categorySlug: 'personal-care', price: 2200, unit: 'tube', image: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=500', tags: ['dental'] },
+  { name: 'Deodorant', nameRw: 'Ibituma Utagira Umwuka', nameFr: 'Déodorant', categorySlug: 'personal-care', price: 3800, unit: 'piece', image: 'https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?w=500', tags: ['hygiene'] },
+
+  // Baby Care
+  { name: 'Diapers Size 3 (Pack)', nameRw: 'Ipamperesi', nameFr: 'Couches T3', categorySlug: 'baby-care', price: 12000, unit: 'pack', image: 'https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=500', tags: ['diapers'] },
+  { name: 'Baby Wipes', nameRw: 'Utudepfo tw\'Abana', nameFr: 'Lingettes Bébé', categorySlug: 'baby-care', price: 3500, unit: 'pack', image: 'https://images.unsplash.com/photo-1621252179027-9262f8c16fe7?w=500', tags: ['baby'] },
+  { name: 'Baby Formula 400g', nameRw: 'Amata y\'Abana', nameFr: 'Lait Bébé 400g', categorySlug: 'baby-care', price: 15000, unit: 'tin', image: 'https://images.unsplash.com/photo-1605522469906-3fe226b356bc?w=500', tags: ['baby', 'formula'] },
+  { name: 'Baby Lotion', nameRw: 'Amavuta y\'Abana', nameFr: 'Lotion Bébé', categorySlug: 'baby-care', price: 4500, unit: 'bottle', image: 'https://images.unsplash.com/photo-1555633514-abcee6ab92e1?w=500', tags: ['baby'] },
+];
